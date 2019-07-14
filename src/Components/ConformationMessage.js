@@ -6,7 +6,7 @@ export default function ConformationMessage({ conformationMessage }) {
   }
   return (
     <div className="container">
-      <p className="border rounded  border-success py-2 mx-auto px-5">
+      <p className="border rounded  border-success py-2 mx-auto px-5 bg-light text-success">
         <span className="h5 pr-4">{conformationMessage}</span> is added On in your phone book
       </p>
     </div >

@@ -6,7 +6,7 @@ export default function DeleteConformation({ deleteConformation }) {
   }
   return (
     <div className="container">
-      <p className="border rounded  border-danger py-2 mx-auto px-5">
+      <p className="border rounded  border-danger py-2 mx-auto px-5 bg-light text-danger">
         {deleteConformation} Deleted from your Phone book
       </p>
     </div>
