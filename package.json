@@ -1,8 +1,7 @@
 {
-  "name": "data-for-countries",
+  "name": "phone-book",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://devendrk.github.io/data-for-countries",
   "dependencies": {
     "axios": "^0.19.0",
     "bootstrap": "^4.3.1",
@@ -15,9 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -b master -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
