@@ -17,10 +17,10 @@ export default function App() {
   const [updateConformation, setUpdateConformation] = useState('')
   const [searchContact, setSearchContact] = useState('')
 
-  const URL = "http://localhost:3001/persons"
+  const URL = "/api/persons"
   useEffect(() => {
     axios
-      .get('http://localhost:3001/persons')
+      .get('/api/persons')
       .then(response => {
         setPersons(response.data)
       })
